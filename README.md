@@ -15,7 +15,7 @@ Since the parent NPCYF project requires accurate and structured hydro-meteorolog
 
 2. Collecting daily ET Level and ET Volume data from trusted government portals (OGD Platform India).
 
-3. Cleaning, standardizing, and splitting the data into separate ET Level and ET Volume files.
+3. Cleaning, standardizing, merging and splitting the data into separate ET Level and ET Volume files.
 
 4. Transforming raw vertical data into a uniform, district-wise transposed, time-series structured format.
 
@@ -73,6 +73,8 @@ Key Steps
 
 **Data Merging** – Combined multiple ET CSV files into a unified dataset.
 
+**Data Cleaning** – Removed Duplicates and made column headings consistent. 
+
 **Data Splitting** – Generated two separate files:
 
 - Evapotranspiration Level.csv
@@ -96,6 +98,8 @@ This appendix contains all Python scripts developed for the automated processing
 - Standardizing dates, state names, and district names
 
 - Merging multiple ET CSV files
+
+- Column Consistences and Cleaning
 
 - Splitting the unified dataset into ET Level and ET Volume files
 
