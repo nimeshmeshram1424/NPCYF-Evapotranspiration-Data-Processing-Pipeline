@@ -160,3 +160,9 @@ OGD Platform India – Hydro-meteorological datasets
 National Water Informatics Centre (NWIC)
 
 National Hydrology Project (NHP), ISRO–Bhuvan Portal
+
+## Contact
+
+For queries or collaboration:
+Name: Nimesh Meshram
+Email: nimeshmeshram2069@gmail.com
