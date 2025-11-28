@@ -1,13 +1,13 @@
-# NPCYF-Evapotranspiration-Data-Processing-Pipeline
+# Evapotranspiration-Data-Processing-Pipeline
 
-A Data Cleaning and Transformation Pipeline for Evapotranspiration (ET) Datasets Supporting NPCYF.
+A Data Cleaning and Transformation Pipeline for Evapotranspiration (ET) Datasets.
 
 ## Project Overview
 
-This repository contains the complete data processing pipeline developed as part of a child project under the National Platform for Crop Yield Forecasting (NPCYF).
+This repository contains the complete data processing pipeline developed as part of a child project under the Parent Project "Automated Web Scraping Integration for Dynamic Data Acquisition".
 The project focuses on the collection, cleaning, organization, and transformation of daily Evapotranspiration (ET) data across all states and districts of India.
 
-Since the parent NPCYF project requires accurate and structured hydro-meteorological inputs for crop yield forecasting, this project provides a high-quality, analysis-ready ET dataset to support model development, validation, and environmental research.
+Since the parent project requires accurate and structured hydro-meteorological inputs for crop yield forecasting, this project provides a high-quality, analysis-ready ET dataset to support model development, validation, and environmental research.
 
 ## Objective
 
@@ -19,7 +19,7 @@ Since the parent NPCYF project requires accurate and structured hydro-meteorolog
 
 4. Transforming raw vertical data into a uniform, district-wise transposed, time-series structured format.
 
-5. Providing a benchmark dataset that supports NPCYF’s automated data-acquisition and crop forecasting workflows.
+5. Providing a benchmark dataset that supports automated data-acquisition and workflows.
 
 ## Dataset Description
 
@@ -117,7 +117,7 @@ All corresponding code files referenced in the appendix are organized within the
 
 4. Ensured consistent columns (Date, State, District, ET values), enabling easy appending of future datasets.
 
-5. Produced a final 846-row clean dataset ready for statistical analysis, modeling, visualization, and integration into NPCYF workflows.
+5. Produced a final 846-row clean dataset ready for statistical analysis, modeling, visualization, and integration workflows.
 
 ## Technical Contributions
 
@@ -137,7 +137,7 @@ All corresponding code files referenced in the appendix are organized within the
 
 3. The transformed dataset supports reliable temporal and spatial trend analysis. enabling accurate trend identification, regional comparison, and long-term monitoring.
 
-4. Final outputs serve as **benchmark datasets** for validating automated ET acquisition in the NPCYF parent project.
+4. Final outputs serve as **benchmark datasets** for validating automated ET acquisition in the parent project.
 
 ## Future Directions
 
@@ -145,7 +145,7 @@ All corresponding code files referenced in the appendix are organized within the
 
 2. Build an automated Python pipeline for real-time ET ingestion.
 
-3. Combine ET with rainfall, soil moisture, vegetation indices, etc., for enhanced forecasting.
+3. Combine ET with rainfall, soil moisture, vegetation indices, etc., for enhanced integration and dynamic data acquisition.
 
 4. Apply GIS-based ET mapping and hotspot analysis.
 
@@ -166,4 +166,4 @@ National Hydrology Project (NHP), ISRO–Bhuvan Portal
 For queries or collaboration:
 Name: Nimesh Meshram
 Email: nimeshmeshram2069@gmail.com
-Project Link: https://github.com/nimeshmeshram1424/NPCYF-Evapotranspiration-Data-Processing-Pipeline.git
+Project Link: https://github.com/nimeshmeshram1424/Evapotranspiration-Data-Processing-Pipeline.git
